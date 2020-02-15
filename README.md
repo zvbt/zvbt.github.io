@@ -1,6 +1,7 @@
 # zvbt osu! skin
 
 # [WhiteCat](http://www.mediafire.com/file/6iwzkfw3va878ii/-_%2523_WhiteCat_%25281.0%2529_%25E3%2580%258ECK%25E3%2580%258F_%2523-.osk/file)
+#* Click on the link above
 ![](https://i.imgur.com/EldGJbk.jpg)
 
 # [Booette](http://www.mediafire.com/file/1atdymc0rjavf3o/Booette.osk/file)
