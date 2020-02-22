@@ -1,8 +1,3 @@
-$text: #fff;
-$link: #e34234;
-$link-hover: #ba160c;
-$background: #151515;
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -12,7 +7,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: $background
+  background: #151515;
 }
 
 .text {
@@ -36,11 +31,11 @@ h1 {
 
 a,
 a:visited {
-	color: $link;
+	color: #e34234;
 	transition: 0.25s;
 }
 
 a:hover,
 a:focus {
-	color: $link-hover;
+	color: #ba160c;
 }
