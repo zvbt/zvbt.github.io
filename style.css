@@ -59,11 +59,11 @@ a:focus {
 }
 
 .rainbow2 {
-  animation: rainbow 5s infinite;
+  animation: rainbow2 5s infinite;
 
 }
 
-@keyframes rainbow{
+@keyframes rainbow2{
   0%{color: orange;}
   10%{color: purple;}
 	20%{color: red;}
