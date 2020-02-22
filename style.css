@@ -57,3 +57,22 @@ a:focus {
   90%{color: DodgerBlue;}
 	100%{color: orange;}
 }
+
+.rainbow2 {
+  animation: rainbow 5s infinite;
+
+}
+
+@keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
