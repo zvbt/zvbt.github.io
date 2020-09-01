@@ -20,7 +20,7 @@
 }
 
 .wordmark-2iDDfm::before {
-   content: 'MYCARLA..';
+   content: 'zvbt.';
    font-size: 14px;
    z-index: 1000;
    position: fixed;
@@ -33,7 +33,7 @@
 }
 
 .wordmark-2iDDfm::after {
-   content: 'CC';
+   content: 'space';
    font-size: 14px;
    z-index: 1000;
    position: fixed;
