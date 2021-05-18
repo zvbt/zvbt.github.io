@@ -76,3 +76,29 @@ a:focus {
   90%{color: DodgerBlue;}
 	100%{color: orange;}
 }
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 100%;
+  left: -25%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
