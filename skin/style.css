@@ -33,6 +33,7 @@ h1 {
 	font-size: 2.25em;
 	font-weight: 700;
 	letter-spacing: -1px;
+  text-decoration: none;
 }
 
 a,
@@ -41,12 +42,15 @@ a:visited {
 	color: #ffffff;
 	transition: 0.25s;
   font-family: 'Roboto';
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   font-size: large;
 	color: #ffffff;
+  text-decoration: none;
 }
 
 
@@ -116,6 +120,21 @@ body:after{
   font-family: sans-serif;
   font-weight: bold;
   color: rgb(255, 88, 91);
+  border-radius: 3px;
+  padding: 1px 3px;
+}
+.soon{
+  position: initial;
+  width: 80px;
+  height: 25px;
+  border: 1px solid rgb(127, 88, 255);
+  top: 7px;
+  right: -20px;
+  text-align: center;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(127, 88, 255);
   border-radius: 3px;
   padding: 1px 3px;
 }
