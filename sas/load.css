@@ -1,0 +1,64 @@
+body {
+	margin: auto;
+    background-color: #0e0e0e;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+}
+
+.logo {
+	position: absolute;
+    
+    top: 40%;
+	right: 42%;
+    width: 256px;
+    height: 256px;
+}
+.txt {
+	position: absolute;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #fff;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
