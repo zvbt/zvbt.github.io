@@ -1,0 +1,38 @@
+html .mention.wrapper-3WhCwL.mention.interactive{
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    animation: gradient-border 3s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    z-index: 1;
+  }
+  @keyframes gradient-border {
+  from {
+  background-position: 0 0;
+  }
+  to {
+  background-position: 130% 0;
+  }
+  }
+  
+  .subtext-3CDbHg,
+  .customStatus-3tC2ig,
+  .hovered-d5PMVU,
+  .title-eS5yk3 {
+      background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+      animation: gradient-border 4s linear infinite;
+      background-size: 400% 100%;
+      color: transparent !important;
+      -webkit-background-clip: text;
+      position: relative;
+      z-index: 1;
+  }
+  @keyframes gradient-border {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 130% 0;
+  }
+  }
