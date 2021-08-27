@@ -1,0 +1,14 @@
+.numberBadge-2s8kKX {
+    animation: animatedPing 1.3s infinite ease-in-out;
+  }
+  @keyframes animatedPing {
+    0% {
+      transform: rotate(-12deg);
+    }
+    50% {
+      transform: rotate(12deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
