@@ -1,21 +1,28 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-
-:root {
+﻿:root {
   --accent: #e23a3a;
   --background: #171717;
   --text: #dedbeb;
 }
 
 @font-face {
-  font-family: ProggyClean;
-  src: url(../fonts/ProggyClean.ttf);
+  font-family: 'ProggyClean';
+  src: url(../fonts/ProggyClean.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  src: url(../fonts/ZenMaruGothic-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
 body {
   background: var(--background);
   color: var(--text);
-  font-family: 'ProggyClean';
+  font-family: 'ProggyClean', 'Zen Maru Gothic', sans-serif;
   font-size: 25px;
   line-height: 1.5;
   display: flex;
@@ -67,4 +74,9 @@ acc {
 
 s {
   text-decoration: line-through;
+}
+
+/* Automatic Korean text detection */
+body :not(code):not(pre):not(samp):not(kbd) {
+  font-family: 'ProggyClean', 'Zen Maru Gothic', sans-serif;
 }

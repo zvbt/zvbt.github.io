@@ -11,7 +11,7 @@
     />
     <meta property="og:title" content="zvbt" />
     <meta property="og:description" content="fuck u" />
-    <meta property="og:url" content="https:/zbnt.github.io/" />
+    <meta property="og:url" content="https://zvb.github.io/" />
     <meta
       property="og:image"
       content="https://avatars.githubusercontent.com/zvbt"
@@ -56,11 +56,25 @@
       <a href="https://github.com/zvbt/MyDramalistPLUS" target="_blank"
         >zvbt/MyDramalistPLUS</a
       ><br />
+
+      <br />
+      <!-- Visitor Counter -->
+      <p id="visitor-count">Loading visitors...</p>
     </main>
-    <img
-      id="counter"
-      style="opacity: 0"
-      src="https://www.cutercounter.com/hits.php?id=hvmxnqadq&nd=6&style=14"
-    />
+
+    <script>
+      async function updateVisitorCount() {
+        try {
+          const response = await fetch('https://tracker.zvbt.cc/views?site=https://zvb.github.io/');
+          const data = await response.json();
+          const countElement = document.getElementById('visitor-count');
+          countElement.textContent = `Visitors: ${data.visitors}`;
+        } catch (error) {
+          console.error('Failed to load visitor count:', error);
+        }
+      }
+
+      updateVisitorCount();
+    </script>
   </body>
 </html>
