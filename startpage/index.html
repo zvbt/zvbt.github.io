@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>~/startpage</title>
+    <meta name="darkreader-lock" />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/NixOS/nixos-artwork/refs/heads/master/logo/nix-snowflake-white.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="image" onclick="nextImage(currentIndex)">
+      <img id="carouselImage" src="./src/images/cover2.webp" />
+      <script async src="./src/js/theme.js" currentIndex="1"></script>
+    </div>
+    <div id="text">
+      <div id="greeting">환영합니다 시아딘!</div>
+      <div id="date"></div>
+      <script async src="./src/js/date.js"></script>
+      <div id="links">
+        <div class="urls">
+          <div class="header">~/general</div>
+          <ul>
+            <li><img src="https://icons.duckduckgo.com/ip3/youtube.com.ico" class="icons"><a href="https://youtube.com">Youtube</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/netflix.com.ico" class="icons"><a href="https://netflix.com">Netflix</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/twitch.tv.ico" class="icons"><a href="https://twitch.tv">Twitch</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/mail.proton.me.ico" class="icons"><a href="https://mail.proton.me/">Proton Mail</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/mail.google.com.ico" class="icons"><a href="https://mail.google.com/">Gmail</a></li>
+          </ul>
+        </div>
+        <div class="urls">
+          <div class="header">~/tracker</div>
+              <ul>
+                <li><img src="https://icons.duckduckgo.com/ip3/anilist.co.ico" class="icons"><a href="https://anilist.co/user/Cyadine/">Anilist</a></li>
+                <li><img src="https://icons.duckduckgo.com/ip3/mydramalist.com.ico" class="icons"><a href="https://mydramalist.com/dramalist/Cyadine">MyDramalist</a></li>
+                <li><img src="https://icons.duckduckgo.com/ip3/deeplol.gg.ico" class="icons"><a href="https://www.deeplol.gg/summoner/euw/BriarFeetSniffer-sniff">Deeplol</a></li>
+                <li><img src="https://icons.duckduckgo.com/ip3/leetify.com.ico" class="icons"><a href="https://leetify.com/@cyadine">Leetify</a></li>
+              </ul>
+        </div>
+        <div class="urls">
+          <div class="header">~/homelab</div>
+          <ul>
+            <li><img src="https://icons.duckduckgo.com/ip3/nextcloud.com.ico" class="icons"><a href="http://192.168.1.50/nextcloud/">Nextcloud</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/jellyfin.org.ico" class="icons"><a href="http://192.168.1.50:8096/web/#/home">Jellyfin</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/adguard.com.ico" class="icons"><a href="http://192.168.8.1:88/">Adguard</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/navidrome.org.ico" class="icons"><a href="http://192.168.1.50:4533/">Navidrome</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/wireguard.com.ico" class="icons"><a href="http://192.168.1.50:51821/">Wireguard</a></li>
+        </div>
+        <div class="urls">
+          <div class="header">~/others</div>
+          <ul>
+            <li><img src="https://icons.duckduckgo.com/ip3/nyaa.si.ico" class="icons"><a href="https://nyaa.si">Nyaa</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/wiki.archlinux.org.ico" class="icons"><a href="https://nyaa.si">ArchWiki</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/buzzheavier.com.ico" class="icons"><a href="https://buzzheavier.com/">Buzzheavier</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/e-z.gg.ico" class="icons"><a href="https://e-z.gg/">E-Z</a></li>
+            <li><img src="https://icons.duckduckgo.com/ip3/monkeytype.com.ico" class="icons"><a href="https://monkeytype.com/">Monkeytype</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
