@@ -3,8 +3,8 @@
   font-display: swap;
   src:
     local("SpaceMono Nerd Font"),
-    url(./fonts/SpaceMonoNF.woff2) format("woff2"),
-    url(./fonts/SpaceMonoNF.woff) format("woff");
+    url(../fonts/SpaceMonoNF.woff2) format("woff2"),
+    url(../fonts/SpaceMonoNF.woff) format("woff");
 }
 
 :root {
@@ -23,7 +23,7 @@ html {
   justify-content: center;
   height: 100svh;
   background-color: var(--background-color);
-  background-image: url("./bgs/topography.svg");
+  background-image: url("../bgs/topography.svg");
   overflow-x: clip;
 }
 
