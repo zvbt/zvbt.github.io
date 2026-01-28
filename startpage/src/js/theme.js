@@ -50,7 +50,7 @@ function nextImage() {
   updateColors(currentIndex);
 
   setTimeout(() => {
-    imageElement.src = "../src/images/" + images[currentIndex];
+    imageElement.src = "./src/images/" + images[currentIndex];
     imageElement.style.opacity = 1;
   }, 200);
 }
@@ -65,7 +65,7 @@ function updateColors() {
 updateColors(currentIndex);
 
 document.getElementById("carouselImage").src =
-  "../src/images/" + images[currentIndex];
+  "./src/images/" + images[currentIndex];
 
 window.onload = function () {
   document.getElementById("image").classList.add("loaded");
