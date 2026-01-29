@@ -1,80 +1,37 @@
 ﻿<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>zvbt</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://avatars.githubusercontent.com/zvbt"
-    />
-    <meta property="og:title" content="zvbt" />
-    <meta property="og:description" content="fuck u" />
-    <meta property="og:url" content="https://zvb.github.io/" />
-    <meta
-      property="og:image"
-      content="https://avatars.githubusercontent.com/zvbt"
-    />
-    <meta name="theme-color" content="#e23a3a" />
+        <title>zvbt</title>
+        <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/zvbt" />
+        <meta property="og:title" content="zvbt" />
+        <meta property="og:description" content="Personal website with my socials and projects." />
+        <meta property="og:url" content="https://zvb.github.io/" />
+        <meta property="og:image" content="https://avatars.githubusercontent.com/zvbt" />
+        <meta name="theme-color" content="#e23a3a" />
+        <link rel="stylesheet" href="styles/main.css" />
+    </head>
 
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
+    <body>
+        <main>
+            <h1>
+                <acc>Δ</acc>
+                cyadine
+            </h1>
+            <p><strong>about me</strong></p>
+            <p>I like to code random stuff & fish</p>
 
-  <body>
-    <main>
-      <h1><acc onclick="window.location.href = '/kr'" style="cursor: pointer;">Δ</acc> cyadine</h1>
-      <p><strong>about me</strong></p>
-      <p>I like to code random stuff</p>
-      <p><strong>socials</strong></p>
-      — github
-      <a href="https://github.com/zvbt" target="_blank">@zvbt</a><br />
-      — twitter
-      <a href="https://twitter.com/@cyxdine" target="_blank">@Cyxdine</a><br />
-      — discord
-      <a href="https://lookup.guru/709704536821858304" target="_blank"
-        >@Cyadine</a
-      ><br />
-      — youtube
-      <a href="https://www.youtube.com/@Cyadine666" target="_blank"
-        >@Cyadine666</a
-      ><br />
-      <br />
-      <p><strong>projects</strong></p>
+            <p><strong>projects</strong></p>
 
-      — AnimeClient
-      <a href="https://github.com/zvbt/AnimeClient" target="_blank"
-        >zvbt/AnimeClient</a
-      ><br />
+            — AnimeClient
+            <a href="https://github.com/zvbt/AnimeClient" target="_blank">zvbt/AnimeClient</a><br />
 
-      — Soundcleod fork
-      <a href="https://github.com/zvbt/soundcleod" target="_blank"
-        >zvbt/soundcleod</a
-      ><br />
+            — Soundcleod fork
+            <a href="https://github.com/zvbt/soundcleod" target="_blank">zvbt/soundcleod</a><br />
 
-      — MyDramaListPLUS
-      <a href="https://github.com/zvbt/MyDramalistPLUS" target="_blank"
-        >zvbt/MyDramalistPLUS</a
-      ><br />
-
-      <br />
-      <!-- Visitor Counter -->
-      <p id="visitor-count">Loading visitors...</p>
-    </main>
-
-    <script>
-      async function updateVisitorCount() {
-        try {
-          const response = await fetch('https://proxy.zvbt.cc/https://tracker.zvbt.cc/views?site=https://zvb.github.io/');
-          const data = await response.json();
-          const countElement = document.getElementById('visitor-count');
-          countElement.textContent = `Visitors: ${data.visitors}`;
-        } catch (error) {
-          console.error('Failed to load visitor count:', error);
-        }
-      }
-
-      updateVisitorCount();
-    </script>
-  </body>
+            — MyDramaListPLUS
+            <a href="https://github.com/zvbt/MyDramalistPLUS" target="_blank">zvbt/MyDramalistPLUS</a><br />
+        </main>
+    </body>
 </html>
