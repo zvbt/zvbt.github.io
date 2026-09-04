@@ -1,0 +1,154 @@
+#theme-select {
+  appearance: none;
+  -webkit-appearance: none;
+
+  background: var(--panel);
+  color: var(--text);
+
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  padding: 10px 38px 10px 14px;
+  min-width: 170px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239299a8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 13px center;
+}
+
+#theme-select:hover {
+  border-color: var(--accent);
+  background-color: var(--panel2);
+}
+
+#theme-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+#theme-select option {
+  background: var(--panel);
+  color: var(--text);
+}
+
+body.default {
+  --bg: #111318;
+  --panel: #181b22;
+  --panel2: #20242d;
+  --border: #2d323d;
+  --text: #f1f3f5;
+  --muted: #9299a8;
+  --accent: #8aadf4;
+  --danger: #ed8796;
+}
+
+body.gruvbox {
+  --bg: #1d2021;
+  --panel: #282828;
+  --panel2: #32302f;
+  --border: #504945;
+  --text: #ebdbb2;
+  --muted: #a89984;
+  --accent: #fabd2f;
+  --danger: #fb4934;
+}
+
+body.catppuccin-mocha {
+  --bg: #11111b;
+  --panel: #181825;
+  --panel2: #1e1e2e;
+  --border: #45475a;
+  --text: #cdd6f4;
+  --muted: #9399b2;
+  --accent: #cba6f7;
+  --danger: #f38ba8;
+}
+
+body.tokyonight {
+  --bg: #16161e;
+  --panel: #1a1b26;
+  --panel2: #24283b;
+  --border: #3b4261;
+  --text: #c0caf5;
+  --muted: #7982a9;
+  --accent: #7aa2f7;
+  --danger: #f7768e;
+}
+
+body.rosepine {
+  --bg: #191724;
+  --panel: #1f1d2e;
+  --panel2: #26233a;
+  --border: #403d52;
+  --text: #e0def4;
+  --muted: #908caa;
+  --accent: #c4a7e7;
+  --danger: #eb6f92;
+}
+
+body.everforest {
+  --bg: #1e2326;
+  --panel: #272e33;
+  --panel2: #2d353b;
+  --border: #4f585e;
+  --text: #d3c6aa;
+  --muted: #859289;
+  --accent: #a7c080;
+  --danger: #e67e80;
+}
+
+body.dracula {
+  --bg: #191a21;
+  --panel: #21222c;
+  --panel2: #282a36;
+  --border: #44475a;
+  --text: #f8f8f2;
+  --muted: #a6a8b5;
+  --accent: #bd93f9;
+  --danger: #ff5555;
+}
+
+body.kanagawa {
+  --bg: #1f1f28;
+  --panel: #2a2a37;
+  --panel2: #363646;
+  --border: #54546d;
+  --text: #dcd7ba;
+  --muted: #727169;
+  --accent: #7e9cd8;
+  --danger: #e46876;
+}
+
+body.cyberpunk {
+  --bg: #090a12;
+  --panel: #111326;
+  --panel2: #181a35;
+  --border: #34365c;
+  --text: #f0f0ff;
+  --muted: #8586a8;
+  --accent: #00f0ff;
+  --danger: #ff2a6d;
+}
+
+body.blood-moon {
+  --bg: #10090b;
+  --panel: #1b0e11;
+  --panel2: #291318;
+  --border: #52242c;
+  --text: #f4dede;
+  --muted: #a77b82;
+  --accent: #ff4d5a;
+  --danger: #ff1744;
+}
